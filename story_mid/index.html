@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>期中繪本分享</title>
+    <title>繪本分享</title>
     <style>
         body {
             position: relative;
@@ -22,25 +22,133 @@
             background: rgba(255, 255, 255, 0.5);
             z-index: -1;
         }
+
+        .image {
+            display: block;
+            margin: auto;
+            width: 90%;
+            height: auto;
+            max-width: 400px;
+            border: 10px rgb(241, 231, 223) solid;
+        }
+        a:hover .image{opacity: 0.6; transform: scale(1.2);} 
+
+        .block01 {
+            padding-top: 1cm;
+            padding-right: 1cm;
+            padding-bottom: 1cm;
+            padding-left: 1cm;
+            background-color: rgb(242, 229, 214);
+            color: rgb(0, 0, 0); /*字體顏色*/
+            font-family: 'Noto Serif JP', serif; /*文字型態*/
+            text-align: center;
+        }
+
+        .block02 {
+            padding-top: 1cm;
+            padding-right: 1cm;
+            padding-bottom: 1cm;
+            padding-left: 1cm;
+            background-color: rgb(238, 190, 134);
+            color: rgb(0, 0, 0); /*字體顏色*/
+            font-family: 'Noto Serif JP', serif; /*文字型態*/
+            text-align: center;
+        }
+
+        #header {
+            width: 100%;
+            height: auto;
+            top: 10px;
+            right: 20px;
+            bottom: auto;
+            left: 20px;
+            padding-top: 1cm;
+            padding-right: 1cm;
+            padding-bottom: 1cm;
+            padding-left: 1cm;
+            background-color: rgb(243, 228, 218);
+            color: rgb(0, 0, 0); /*字體顏色*/
+            font-family: 'Noto Serif JP', serif; /*文字型態*/
+            font-size: 30px;
+            text-align: center;
+        }
+        #purpose{
+            width: auto;
+            height: auto;
+            margin-top: 1cm;
+            margin-right: 2cm;
+            margin-bottom: 0;
+            margin-left: 2cm;
+            padding-top: 1cm;
+            padding-right: 1cm;
+            padding-bottom: 1cm;
+            padding-left: 1cm;
+            background-color: rgb(247, 218, 187);
+            color: rgb(0, 0, 0); /*字體顏色*/
+            font-family: 'Noto Serif JP', serif; /*文字型態*/
+            text-align: center;
+        }
+
     </style>
 </head>
 <body>
-    <h1>我是期中繪本啊~</h1>
-    <h1><a href="./小小貓熊.pdf">小小貓熊</a></h1>
-    <h1><a href="./王暐翔_我和我家附近的流浪狗.pdf">我和我家附近的流浪狗</a></h1>
-    <h1><a href="./包姆.pdf">包姆</a></h1>
-    <h1><a href="./回家之路漫漫.pdf">回家之路漫漫</a></h1>
-    <h1><a href="./林云媐_賽米溪的煩惱.mp4">賽米溪的煩惱</a></h1>
-    <h1><a href="./林映余_注音練習.MP4">注音練習</a></h1>
-    <h1><a href="./邱郁慈＿魯拉魯先生的庭院.pdf">魯拉魯先生的庭院</a></h1>
-    <h1><a href="./邱媚庭_小鬼鬼.pdf">小鬼鬼</a></h1>
-    <h1><a href="./野獸國.pdf">野獸國</a></h1>
-    <h1><a href="./陳佩君_情緒大飯店.pdf">情緒大飯店</a></h1>
-    <h1><a href="./夢的處理廠.pdf">夢的處理廠</a></h1>
-    <h1><a href="./請問一下，踩得到底嗎.pdf">請問一下，踩得到底嗎</a></h1>
-    <h1><a href="./壞種子愛圖書館.pdf">壞種子愛圖書館</a></h1>
-<script>
-  //location.replace("./hw00/index.html")
-</script>
+    <div id="header">
+        <h1><b><u>我是繪本分享啊~</u></b><br>.</h1>
+    </div>
+    <div id="purpose">
+        <div class="block01"><a href="./小小貓熊.pdf">
+            <img class="image" src="../image/cover_mid/cover01.PNG" title="小小貓熊">
+            <h1>小小貓熊</h1></a>
+        </div>
+        <div class="block02"><a href="./王暐翔_我和我家附近的流浪狗.pdf">
+            <img class="image" src="../image/cover_mid/cover02.PNG" title="我和我家附近的流浪狗">
+            <h1>我和我家附近的流浪狗</h1></a>
+        </div>
+        <div class="block01"><a href="./包姆.pdf">
+            <img class="image" src="../image/cover_mid/cover03.PNG" title="包姆">
+            <h1>包姆</h1></a>
+        </div>
+        <div class="block02"><a href="./回家之路漫漫.pdf">
+            <img class="image" src="../image/cover_mid/cover04.PNG" title="回家之路漫漫">
+            <h1>回家之路漫漫</h1></a>
+        </div>
+        <div class="block01"><a href="./林云媐_賽米溪的煩惱.mp4">
+            <img class="image" src="../image/cover_mid/cover05.PNG" title="賽米溪的煩惱">
+            <h1>賽米溪的煩惱</h1></a>
+        </div>
+        <div class="block02"><a href="./林映余_注音練習.MP4">
+            <img class="image" src="../image/cover_mid/cover06.PNG" title="注音練習">
+            <h1>注音練習</h1></a>
+        </div>
+        <div class="block01"><a href="./邱郁慈＿魯拉魯先生的庭院.pdf">
+            <img class="image" src="../image/cover_mid/cover07.PNG" title="魯拉魯先生的庭院">
+            <h1>魯拉魯先生的庭院</h1></a>
+        </div>
+        <div class="block02"><a href="./邱媚庭_小鬼鬼.pdf">
+            <img class="image" src="../image/cover_mid/cover08.PNG" title="小鬼鬼">
+            <h1>小鬼鬼</h1></a>
+        </div>
+        <div class="block01"><a href="./野獸國.pdf">
+            <img class="image" src="../image/cover_mid/cover09.PNG" title="野獸國">
+            <h1>野獸國</h1></a>
+        </div>
+        <div class="block02"><a href="./陳佩君_情緒大飯店.pdf">
+            <img class="image" src="../image/cover_mid/cover10.PNG" title="情緒大飯店">
+            <h1>情緒大飯店</h1></a>
+        </div>
+        <div class="block01"><a href="./夢的處理廠.pdf">
+            <img class="image" src="../image/cover_mid/cover11.PNG" title="夢的處理廠">
+            <h1>夢的處理廠</h1></a>
+        </div>
+        <div class="block02"><a href="./請問一下，踩得到底嗎.pdf">
+            <img class="image" src="../image/cover_mid/cover12.PNG" title="請問一下，踩得到底嗎">
+            <h1>請問一下，踩得到底嗎</h1></a>
+        </div>
+        <div class="block01"><a href="./壞種子愛圖書館.pdf">
+            <img class="image" src="../image/cover_mid/cover13.PNG" title="壞種子愛圖書館">
+            <h1>壞種子愛圖書館</h1></a>
+        </div>
+    </div>
+    
 </body>
 </html> 
