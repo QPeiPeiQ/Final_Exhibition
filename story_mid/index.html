@@ -5,9 +5,22 @@
     <title>期中繪本分享</title>
     <style>
         body {
-            background-color: rgb(222, 125, 156); /* #6A4C9C */
+            position: relative;
+            background-image: url("../可愛背景圖2.jpg");
+            background-position: center center;
+            background-color: rgb(252, 201, 129);
             color: rgb(225, 33, 77); /*字體顏色*/
             font-family: 'Noto Serif JP', serif; /*文字型態*/
+        }
+        body::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(255, 255, 255, 0.5);
+            z-index: -1;
         }
     </style>
 </head>
