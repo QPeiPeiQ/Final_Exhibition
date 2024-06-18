@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>期末繪本分享</title>
+    <title>AI製圖繪本</title>
     <style>
         body {
             position: relative;
@@ -22,25 +22,132 @@
             background: rgba(255, 255, 255, 0.5);
             z-index: -1;
         }
+
+        .image {
+            display: block;
+            margin: auto;
+            width: 90%;
+            height: auto;
+            max-width: 400px;
+            border: 10px rgb(241, 231, 223) solid;
+        }
+        a:hover .image{opacity: 0.6; transform: scale(1.2);} 
+
+        .block01 {
+            padding-top: 1cm;
+            padding-right: 1cm;
+            padding-bottom: 1cm;
+            padding-left: 1cm;
+            background-color: rgb(242, 229, 214);
+            color: rgb(0, 0, 0); /*字體顏色*/
+            font-family: 'Noto Serif JP', serif; /*文字型態*/
+            text-align: center;
+        }
+
+        .block02 {
+            padding-top: 1cm;
+            padding-right: 1cm;
+            padding-bottom: 1cm;
+            padding-left: 1cm;
+            background-color: rgb(238, 190, 134);
+            color: rgb(0, 0, 0); /*字體顏色*/
+            font-family: 'Noto Serif JP', serif; /*文字型態*/
+            text-align: center;
+        }
+
+        #header {
+            width: 100%;
+            height: auto;
+            top: 10px;
+            right: 20px;
+            bottom: auto;
+            left: 20px;
+            padding-top: 1cm;
+            padding-right: 1cm;
+            padding-bottom: 1cm;
+            padding-left: 1cm;
+            background-color: rgb(243, 228, 218);
+            color: rgb(0, 0, 0); /*字體顏色*/
+            font-family: 'Noto Serif JP', serif; /*文字型態*/
+            font-size: 30px;
+            text-align: center;
+        }
+        #purpose{
+            width: auto;
+            height: auto;
+            margin-top: 1cm;
+            margin-right: 2cm;
+            margin-bottom: 0;
+            margin-left: 2cm;
+            padding-top: 1cm;
+            padding-right: 1cm;
+            padding-bottom: 1cm;
+            padding-left: 1cm;
+            background-color: rgb(247, 218, 187);
+            color: rgb(0, 0, 0); /*字體顏色*/
+            font-family: 'Noto Serif JP', serif; /*文字型態*/
+            text-align: center;
+        }
     </style>
 </head>
 <body>
-    <h1>我是期末繪本啊~</h1>
-    <h1><a href="./王暐翔_交朋友.pdf">交朋友</a></h1>
-    <h1><a href="./江紹楓_最勇敢的膽小鬼.pdf">最勇敢的膽小鬼</a></h1>
-    <h1><a href="./林云媐_戴夫的海洋冒險.webm">戴夫的海洋冒險</a></h1>
-    <h1><a href="./林映余_老母雞的早知道.pdf">老母雞的早知道</a></h1>
-    <h1><a href="./邱郁慈_No Pain No Gain.pdf">No Pain No Gain</a></h1>
-    <h1><a href="./邱媚庭_彩鎮.pdf">邱媚庭_彩鎮</a></h1>
-    <h1><a href="./范哲瑋_夢.pdf">夢</a></h1>
-    <h1><a href="./涂可諭_爸爸去哪了.pdf">爸爸去哪了</a></h1>
-    <h1><a href="./許家豪_我的祕密基地.pdf">我的祕密基地</a></h1>
-    <h1><a href="./陳立平_我要給我.pdf">我要!給我!</a></h1>
-    <h1><a href="./陳佩君_快樂的波波.pdf">快樂的波波</a></h1>
-    <h1><a href="./黃清雨_星星兔與彩虹橋.pdf">星星兔與彩虹橋</a></h1>
-    <h1><a href="./黎華謦_夢幻食物藍.pdf">夢幻食物藍</a></h1>
-<script>
-  //location.replace("./hw00/index.html")
-</script>
+    <div id="header">
+        <h1><b><u>我是製圖繪本~</u></b><br>.</h1>
+    </div>
+    <div id="purpose">
+        <div class="block01"><a href="./王暐翔_交朋友.pdf">
+            <img class="image" src="../image/cover_final/cover01.PNG" title="王暐翔_交朋友">
+            <h1>王暐翔_交朋友</h1></a>
+        </div>
+        <div class="block02"><a href="./江紹楓_最勇敢的膽小鬼.pdf">
+            <img class="image" src="../image/cover_final/cover02.PNG" title="江紹楓_最勇敢的膽小鬼">
+            <h1>江紹楓_最勇敢的膽小鬼</h1></a>
+        </div>
+        <div class="block01"><a href="./林云媐_戴夫的海洋冒險.webm">
+            <img class="image" src="../image/cover_final/cover03.PNG" title="林云媐_戴夫的海洋冒險">
+            <h1>林云媐_戴夫的海洋冒險</h1></a>
+        </div>
+        <div class="block02"><a href="./林映余_老母雞的早知道.pdf">
+            <img class="image" src="../image/cover_final/cover04.PNG" title="林映余_老母雞的早知道">
+            <h1>林映余_老母雞的早知道</h1></a>
+        </div>
+        <div class="block01"><a href="./邱郁慈_No Pain No Gain.pdf">
+            <img class="image" src="../image/cover_final/cover05.PNG" title="邱郁慈_No Pain No Gain">
+            <h1>邱郁慈_No Pain No Gain</h1></a>
+        </div>
+        <div class="block02"><a href="./邱媚庭_彩鎮.pdf">
+            <img class="image" src="../image/cover_final/cover06.PNG" title="邱媚庭_彩鎮">
+            <h1>邱媚庭_彩鎮</h1></a>
+        </div>
+        <div class="block01"><a href="./范哲瑋_夢.pdf">
+            <img class="image" src="../image/cover_final/cover07.PNG" title="范哲瑋_夢">
+            <h1>范哲瑋_夢</h1></a>
+        </div>
+        <div class="block02"><a href="./涂可諭_爸爸去哪了.pdf">
+            <img class="image" src="../image/cover_final/cover08.PNG" title="涂可諭_爸爸去哪了">
+            <h1>涂可諭_爸爸去哪了</h1></a>
+        </div>
+        <div class="block01"><a href="./許家豪_我的祕密基地.pdf">
+            <img class="image" src="../image/cover_final/cover09.PNG" title="許家豪_我的祕密基地">
+            <h1>許家豪_我的祕密基地</h1></a>
+        </div>
+        <div class="block02"><a href="./陳立平_我要給我.pdf">
+            <img class="image" src="../image/cover_final/cover10.PNG" title="陳立平_我要給我">
+            <h1>陳立平_我要給我</h1></a>
+        </div>
+        <div class="block01"><a href="./陳佩君_快樂的波波.pdf">
+            <img class="image" src="../image/cover_final/cover11.PNG" title="陳佩君_快樂的波波">
+            <h1>陳佩君_快樂的波波</h1></a>
+        </div>
+        <div class="block02"><a href="./黃清雨_星星兔與彩虹橋.pdf">
+            <img class="image" src="../image/cover_final/cover12.PNG" title="黃清雨_星星兔與彩虹橋">
+            <h1>黃清雨_星星兔與彩虹橋</h1></a>
+        </div>
+        <div class="block01"><a href="./黎華謦_夢幻食物藍.pdf">
+            <img class="image" src="../image/cover_final/cover13.PNG" title="黎華謦_夢幻食物藍">
+            <h1>黎華謦_夢幻食物藍</h1></a>
+        </div>
+    </div>
+
 </body>
 </html> 
