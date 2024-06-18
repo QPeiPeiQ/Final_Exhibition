@@ -2,18 +2,90 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>112-2 兒童文學研究期末展覽</title>
+    <title>112-2 童藝-兒童文學研究AI兒童繪本創作展</title>
     <style>
         body {
-            background-color: rgb(222, 125, 156); /* #6A4C9C */
+            position: relative;
+            background-image: url("./可愛背景圖2.jpg");
+            background-position: center center;
+            background-color: rgb(252, 201, 129);
             color: rgb(225, 33, 77); /*字體顏色*/
+            font-family: 'Noto Serif JP', serif; /*文字型態*/
+        }
+        body::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(255, 255, 255, 0.5);
+            z-index: -1;
+        }
+
+        .image {
+            display: block;
+            margin: auto;
+            width: 600px;
+            height: 500px;
+        }
+        a:hover .image{opacity: 0.6; transform: scale(1.2);} 
+
+        #header {
+            width: 100%;
+            height: auto;
+            top: 10px;
+            right: 20px;
+            bottom: auto;
+            left: 20px;
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0); /*字體顏色*/
+            font-family: 'Noto Serif JP', serif; /*文字型態*/
+        }
+        #purpose{
+            width: auto;
+            height: auto;
+            margin-top: 1cm;
+            margin-right: 2cm;
+            margin-bottom: 0;
+            margin-left: 2cm;
+            padding-top: 2cm;
+            padding-right: 2cm;
+            padding-bottom: 2cm;
+            padding-left: 2cm;
+            background-color: rgb(247, 218, 187);
+            color: rgb(0, 0, 0); /*字體顏色*/
+            font-family: 'Noto Serif JP', serif; /*文字型態*/
+            text-align: center;
+        }
+        #mid{
+            width: auto;
+            height: auto;
+            margin-top: 2cm;
+            margin-right: 2cm;
+            margin-bottom: 0;
+            margin-left: 2cm;
+            color: rgb(0, 0, 0); /*字體顏色*/
             font-family: 'Noto Serif JP', serif; /*文字型態*/
         }
     </style>
 </head>
 <body>
-    <div style="background: white; color: black;"><h1>哇哈哈</h1></div>
-    <h1><a href="./story_mid/index.html">點我呀~</a></h1>
+
+    <div id="header"><h1>童藝-<br>北科大兒童文學研究<br>AI兒童繪本創作展</h1></div>
+    
+    <div id="purpose">
+        <h1>藝勞永藝 Everlasting</h1>
+        <h2>「藝勞永藝 Everlasting」，意味著在藝術中展現永續的美好、永續的創意以及永續的希望，並以藝術的方式將此精神永遠的傳遞下去。
+            在本展覽中，學生們透過人工智慧的力量，以獨特的視角探索永續的主題。
+            學生們運用AI技術，創作出一本本關於永續發展的繪本，將對未來世界的想像化為色彩繽紛的畫面，透過色彩的交織與故事的鋪陳，引領觀眾進入一場夢幻般的永續之旅。
+            此外，展覽還呈現了學生在課堂上精心設計的實境解謎遊戲，這些遊戲將觀眾帶入一個互動式的體驗中，讓參觀者進一步參與。
+            本展將學生們的想像力和創造力展現得淋漓盡致，呈現了他們對於永續議題的熱情與關注。
+            這場展覽不僅是一個藝術的饗宴，更是一個探索永續未來的啟示，讓我們共同行動，打造一個永續發展的美好世界。</h2>
+    </div>
+    
+    <div id="mid"><a href="./story_mid/index.html"><img class="image" src="./01.jpg"></a></div>
+
 <script>
   //location.replace("./hw00/index.html")
 </script>
